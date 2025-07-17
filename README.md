@@ -31,9 +31,6 @@ This is a simple full-stack **Survey Application** built using **React**, **Node
 
 ---
 
-## 🏁 Getting Started
-
-### 1. Clone the repository:
+##  Clone the repository:
 ```bash
-git clone https://github.com/your-username/survey-app.git
-cd survey-app
+git clone https://github.com/muhammed-suhaid/survey-web-app.git
