@@ -27,7 +27,8 @@ This is a simple full-stack **Survey Application** built using **React**, **Node
 
 ## 📷 Screenshot
 
-<img width="1920" height="928" alt="image" src="https://github.com/user-attachments/assets/310a1258-7f8b-4966-afde-d2e3c88368ef" />
+<img width="1920" height="927" alt="{30D6BD39-A73D-43BE-94B1-0FC929D2ACA7}" src="https://github.com/user-attachments/assets/7ca8f09a-fa23-469f-bd96-226c2903daad" />
+
 
 ---
 
