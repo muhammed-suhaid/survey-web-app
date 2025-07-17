@@ -33,6 +33,7 @@ const AddDetails = () => {
     }
 
     const onButtonClick = () => {
+        console.log(input)
         axios.post("http://Localhost:4000/survey", input)
             .then((response) => {
                 changeOutput(response.data.result)
@@ -69,7 +70,17 @@ const AddDetails = () => {
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Blood Group</label>
-                                <input type="text" className="form-control" name="blood_group" value={input.blood_group} onChange={inputHandler} />
+                                <select name="blood_group" className="form-control" value={input.blood_group} onChange={inputHandler}>
+                                    <option value="" disabled>--choose--</option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                </select>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Pin Code</label>
