@@ -85,10 +85,10 @@ const AddDetails = () => {
                                 </div>
                             </div>
                             {/* Display Card */}
-                            {isData ? <div className="mt-4 col-12 col-md-6 mx-auto">
+                            {isData ? <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <div className="card shadow">
                                     <div className="card-body">
-                                        <h5 className="card-title">Survey Result</h5>
+                                        <h5 className="card-title" align="center">Survey Result</h5>
                                         <p className="card-text"><strong>Name:</strong> {output.name}</p>
                                         <p className="card-text"><strong>Gender:</strong> {output.gender}</p>
                                         <p className="card-text"><strong>Blood Group:</strong> {output.blood_group}</p>
